@@ -1,0 +1,28 @@
+.container__sobre {
+    display: flex;
+    margin: 6rem 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo__secundario {
+    color: var(--vermelho);
+    font-weight: 600;
+}
+
+.titulo__principal {
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--cinza-titulo-principal);
+    margin: 1.5rem 0;
+}
+
+.container__texto {
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 20.25rem;
+    padding: 0.75rem 0 0 0;
+    color: var(--cinza-claro);
+    line-height: 2rem;
+}

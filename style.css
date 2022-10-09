@@ -1,4 +1,5 @@
 @import url("/styles/header.css");
+@import url("/styles/sobre.css");
 
 
 :root {
@@ -7,6 +8,7 @@
     --cinza-escuro: #3A404E;
     --cinza-claro: #667085;
     --fonte: "Inter";
+    --cinza-titulo-principal: #101828;
 }
 
 body {
