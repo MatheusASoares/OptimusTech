@@ -1,0 +1,31 @@
+.metricas-container {
+  margin: 0 7em 6em 7em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.metricas__item {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25em;
+  width: 17.5em;
+}
+
+.metricas__titulo {
+  color: var(--vermelho);
+  font-size: 3.75em;
+  font-weight: 600;
+}
+
+.metricas__subtitulo {
+  color: var(--cinza-titulo-principal);
+  font-size: 1.125em;
+}
+
+.metricas__texto {
+  color: var(--cinza-claro);
+  font-weight: 400;
+}
