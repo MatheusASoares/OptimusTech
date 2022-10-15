@@ -1,36 +1,91 @@
-.container__talentos {
-  margin: 6em 5em;
+.container__vagas {
+  padding: 6em 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  gap: 4em;
+  align-items: center;
 }
+
+.container__talentos {
+  padding: 0 5em;
+}
+
 .talentos__descricao {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 1.2em;
+  justify-content: center;
+  gap: 1.25em;
+}
+
+.talentos__imagem {
+  padding: 4em 2em;
 }
 
 .talentos__subtitulo {
+  color: var(--vermelho);
+  font-size: 0.875em;
   background: rgba(142, 36, 36, 0.05);
   border-radius: 1em;
   padding: 0.25em 0.75em;
-  color: var(--vermelho);
-  font-size: 0.875em;
-  font-weight: 500;
 }
 
 .talentos__titulo {
+  color: var(--cinza-titulo-principal);
   font-size: 2.25em;
   font-weight: 600;
-  color: var(--cinza-titulo-principal);
 }
 
 .talentos__texto {
+  color: var(--cinza-claro);
   font-size: 1.25em;
   font-weight: 400;
+}
+
+.container__vagas-abertas {
+  width: 80em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 5em;
+  gap: 4em;
+}
+
+.vagas__design,
+.vagas__dev {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 16em;
+  width: 48em;
+  gap: 2em;
+}
+
+.vagas__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  padding: 1.5em 1.5em 1.75em;
+  gap: 1.5em;
+  border: 1px solid var(--cor-da-borda);
+  border-radius: 1em;
+}
+.vagas__titulo {
+  color: var(--cinza-titulo-principal);
+  font-size: 1.25em;
+}
+.vagas__subtitulo {
+  color: var(--cinza-titulo-principal);
+  font-size: 1.125em;
+}
+
+.vagas__detalhes {
+  display: flex;
+  gap: 1.5em;
+}
+
+.vagas__periodo,
+.vagas__salario {
   color: var(--cinza-claro);
 }
