@@ -10,14 +10,13 @@
 .depoimentos__conteudo {
   background: rgba(196, 25, 25, 0.03);
   border-radius: 1em;
-  margin: 0 7em;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  align-self: stretch;
   padding: 4em;
   gap: 2em;
+  width: 68em;
 }
 
 .depoimentos__texto {
